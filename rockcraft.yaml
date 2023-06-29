@@ -1,5 +1,6 @@
 name: sdcore-nssf
-base: ubuntu:22.04
+base: bare
+build-base: ubuntu:22.04
 version: '1.3'
 summary: SD-Core NSSF
 description: SD-Core NSSF
@@ -15,5 +16,7 @@ parts:
     source-commit: 4e5aef39c256208ad0f830be56da7f4bcc516163
     build-snaps:
       - go/1.18/stable
+    stage-packages:
+      - libc6_libs
     organize:
       bin/cmd: bin/nssf
