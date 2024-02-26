@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/nssf.git
     source-type: git
-    source-commit: 349dd6ce2bcfc18a340a5c0973498bf63ca1b720
+    source-commit: 8196d18f4d381e61753548ab38fad4f97b33ee60
     build-snaps:
       - go/1.21/stable
     stage-packages:
