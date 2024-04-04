@@ -1,7 +1,7 @@
 name: sdcore-nssf
 base: bare
 build-base: ubuntu@22.04
-version: '1.3'
+version: '1.4.0'
 summary: SD-Core NSSF
 description: SD-Core NSSF
 license: Apache-2.0
@@ -14,7 +14,7 @@ parts:
     plugin: go
     source: https://github.com/omec-project/nssf.git
     source-type: git
-    source-commit: 8196d18f4d381e61753548ab38fad4f97b33ee60
+    source-tag: v1.4.0
     build-snaps:
       - go/1.21/stable
     stage-packages:
