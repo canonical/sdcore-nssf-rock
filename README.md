@@ -1,4 +1,4 @@
-# SD-Core NSSF ROCK
+# SD-Core NSSF rock
 
 Container image for SD-Core NSSF.
 
