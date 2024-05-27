@@ -1,6 +1,6 @@
 name: sdcore-nssf
 base: bare
-build-base: ubuntu@22.04
+build-base: ubuntu@24.04
 version: '1.4.0'
 summary: SD-Core NSSF
 description: SD-Core NSSF
@@ -19,5 +19,6 @@ parts:
       - go/1.21/stable
     stage-packages:
       - libc6_libs
+      - base-files_lib
     organize:
       bin/cmd: bin/nssf
