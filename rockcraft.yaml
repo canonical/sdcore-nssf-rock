@@ -1,7 +1,7 @@
 name: sdcore-nssf
 base: bare
 build-base: ubuntu@24.04
-version: '1.4.1'
+version: '1.5.1'
 summary: SD-Core NSSF
 description: SD-Core NSSF
 license: Apache-2.0
